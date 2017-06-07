@@ -1,0 +1,177 @@
+body {
+  font-family: '微软雅黑';
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix')
+  format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+
+/*页面部分*/
+.page {
+  width: 1200px;
+  /*margin: 0 auto;*/
+}
+.allDaily {
+  width: 817px;
+  /*height:1062px;*/
+  float: left;
+}
+/*工地日志*/
+.buildingSite-daily {
+  /*margin-top: 40px;*/
+  width: 817px;
+  float: left;
+}
+/*日志内容 */
+.buildingSite-daily .dailyContent {
+  width: 817px;
+  margin-right: 65px;
+}
+/*日志标题和工程进度*/
+.dailyContent .dailyTop {
+  height: 18px;
+}
+.dailyContent a.dailyTitle {
+  color: #fdab23;
+  font-size: 18px;
+  float: left;
+}
+.dailyContent span {
+  float: right;
+  padding-right: 15px;
+}
+.dailyContent span:hover .iconfont,.dailyContent span:hover a {
+  color: #FDAB23;
+}
+.dailyContent span .iconfont,.dailyContent span a {
+  font-size: 12px;
+  color: #999999
+}
+.dailyContent span .iconfont {
+  cursor: pointer;
+  padding-right: 6px;
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*工地最新动态*/
+.dailyContent p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 2px;
+}
+.dailyContent p a {
+  color: #666666;
+}
+.dailyContent p a:hover {
+  text-decoration: underline;
+  color:#FDAB23;
+}
+/*工地最新动态配图*/
+.dynamic-pictures {
+  width: 817px;
+  height: 151px;
+}
+.dynamic-pictures ul {
+  width: 830px;
+}
+.dynamic-pictures ul li {
+  float: left;
+  margin-right: 12px;
+  height: 151px;
+}
+/*动态发布人和发布时间*/
+.dynamic-issue {
+  height: 65px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 26px;
+}
+.dynamic-issue p.author {
+  padding-right: 22px;
+}
+.dynamic-issue p.author a:hover,
+.dynamic-issue p.author :hover .iconfont,
+.dynamic-issue p.datetime a:hover,
+.dynamic-issue p.datetime :hover .iconfont {
+  text-decoration: none;
+  color: #FDAB23;
+}
+.dynamic-issue p.author,
+.dynamic-issue p.datetime {
+  float: left;
+  line-height: 65px;
+  margin: 0
+}
+.dynamic-issue p.author a,
+.dynamic-issue p.datetime a {
+  color: #c0c0c0;font-size: 12px;
+}
+.dynamic-issue p.author .iconfont,
+.dynamic-issue p.datetime .iconfont {
+  color: #c0c0c0;
+  cursor: pointer;
+  padding-right: 6px;
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*右侧广告位*/
+.advert {
+  line-height: 993px;
+  text-align: center;
+  height: 993px;
+  width: 317px;
+  float: right;
+  background-color: #eeeeee;
+  position: relative;
+  /*margin-top: 40px;*/
+}
+/*分页*/
+.pagination {
+  float: right;
+  width: 1197px;
+  height: 152px;
+  margin-top: 22px;
+}
+.pagination div {
+  float: right;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+.pagination div a {
+  border: 1px solid #8a8a8a;
+  color: #8a8a8a;
+  font-size: 12px;
+  padding: 12px 14px;
+  border-left: none;
+}
+.pagination div a.pre,
+.pagination div a.next {
+  width: 88px;
+  height: 34px;
+  border: 1px solid #8a8a8a;
+  padding: 12px 18px;
+}
+.pagination div a.point {
+  border: none;
+}
+.pagination div input {
+  width: 52px;
+  height: 42px;
+  color: #8a8a8a;
+}

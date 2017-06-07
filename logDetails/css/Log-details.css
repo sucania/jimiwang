@@ -1,0 +1,308 @@
+body {
+  font-family: '微软雅黑';
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix')
+  format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+/*工地日志详情*/
+.pageDetails {
+  width: 100%;
+  height: 198px;
+  background: url(../img/bg.png) repeat-x bottom;
+}
+.pageDetails .content {
+  padding: 30px 66px 28px 14px;
+  height: 198px;
+  width: 1200px;
+}
+
+.pageDetails .content .leftside{
+  float: left;
+}
+/*工地名称*/
+.pageDetails .content .siteName {
+  font-size: 27px;
+  margin-bottom: 24px;
+}
+/*工地信息*/
+.pageDetails .content .site-information p {
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: #c6c6c6;
+}
+.pageDetails .content .site-information p img {
+  position: relative;
+  top: 2px;
+}
+.pageDetails .content .site-information p a {
+  color: #333333;
+}
+.pageDetails .content .site-information p a:hover {
+  color: #fdab23;
+}
+/*工地二维码*/
+.pageDetails .construct-code {
+  float: right;
+}
+
+/*日记和所有参与角色内容部分*/
+.cont {
+  width: 1200px;
+  height: auto;
+}
+/*装修日记*/
+.decoration-diary {
+  width: 900px;
+  height: auto;
+  float: left;
+}
+/*装修日记头部*/
+.decoration-diary .nav {
+  width: 900px;
+  height: 56px;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 20px;
+}
+.decoration-diary .nav p {
+  width: 100px;
+  height: 56px;
+  font-size: 18px;
+  color: #fdab23;
+  float: left;
+  padding-top: 25px;
+  text-align: center;
+  border-bottom: 2px solid #fdab23;
+}
+/*装修动态*/
+.decoration-trends {
+  width: 100%;
+  height: 350px;
+  border-bottom: 1px solid #ebebeb;
+  padding:33px 0;
+  position: relative;
+}
+/*发布人头像*/
+.publisher-image {
+  float: left;
+  width: 95px;
+  height: 280px;
+}
+.publisher-cont {
+  width: 805px;
+  height: auto;
+  float: right;
+}
+.publisher-cont .top {
+  font-size: 16px;
+  height: 20px;
+}
+/*发布人名字*/
+.publisher-cont .publisher-name  a {
+  float: left;
+  color: #fdab23;
+}
+/*施工进度*/
+.publisher-cont .construction-schedule {
+  float: right;
+  color: #a9a9a9;
+  cursor: pointer;
+  font-size: 12px;
+}
+.publisher-cont .construction-schedule img {
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
+/*发布动态内容*/
+.decoration-trends .dynamic-content {
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+}
+.decoration-trends .dynamic-content a {
+  color: #666666;
+}
+/*发布动态图片*/
+.decoration-trends .dynamic-photo {
+  width: 100%;
+  height: 151px;
+  margin-bottom: 24px;
+}
+.decoration-trends .dynamic-photo ul li {
+  margin-right: 13px;
+  float: left;
+}
+/*发布动态时间*/
+.decoration-trends .publisher-cont .publish-time {
+  height: 35px;
+  width: 100%;
+}
+.decoration-trends .publisher-cont .publish-time a.leftside {
+  color: #fdab23;
+  font-size: 12px;
+  float: left;
+}
+.decoration-trends .publisher-cont .publish-time a.rightside {
+  float: right;
+}
+/*分享图标*/
+.decoration-trends .publisher-cont  .share{
+  width: 122px;
+  float: right;
+  position: absolute;
+  right: 0px;
+  bottom:-28px;
+  display: none;
+  z-index: 1;
+}
+.decoration-trends .publisher-cont  .share .WeChat {
+  position: absolute;
+  top:23px;
+  left: 15px;
+  cursor: pointer;
+}
+.decoration-trends .publisher-cont  .share .weibo {
+  position: absolute;
+  top:23px;
+  left: 52px;
+  cursor: pointer;
+}
+.decoration-trends .publisher-cont  .share .space {
+  position: absolute;
+  top:23px;
+  left: 86px;
+  cursor: pointer;
+}
+
+.white {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  top: -2px;
+
+}
+/*加载更多*/
+.moreLoad input{
+  width: 900px;
+  height: 54px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: #666666;
+  font-size: 16px;
+  margin-top:40px;
+}
+/*右侧页面，预约工地*/
+.reservation-site {
+  width: 238px;
+  height: 69px;
+  padding-top:25px;
+  padding-bottom: 22px;
+  float: right;
+}
+.reservation-site p {
+  font-size: 18px;
+  color: #333333;
+  border-left: 4px solid #fdb234;
+  padding-left: 12px;
+}
+
+/*预约姓名电话表单*/
+form {
+  float: right;
+}
+form div {
+  position: relative;
+}
+form div:first-child {
+  margin-bottom: 10px;
+}
+form div img {
+  position: absolute;
+  left:1px;
+  top: 1px;
+}
+form input[type="text"] {
+  text-indent: 30px;
+  border:1px solid #efefef;
+  height: 38px;
+  color: #999999;
+  width: 238px;
+}
+form input[type="button"] {
+  background-color: #fdab23;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 238px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 38px;
+  cursor: pointer;
+}
+/*装修公司,设计师,材料商,工程监理*/
+.decoration-company,
+.designer,
+.Material-company,
+.supervisor-company {
+  width: 238px;
+  height: 160px;
+  padding-bottom: 46px;
+  float: right;
+}
+.decoration-company .company,
+.designer .name,
+.Material-company .company,
+.supervisor-company .company {
+  border-left: 4px solid #fdab23;
+  padding-left: 13px;
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+.decoration-company .logo,
+ .designer img ,
+ .Material-company .logo,
+ .supervisor-company .logo {
+  float: left;
+}
+.decoration-company  .name ,
+.Material-company .name,
+.supervisor-company .name {
+  width: 166px;
+  float: right;
+  padding-left: 16px;
+  padding-right: 12px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 20px;
+}
+
+.designer .fullName {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.designer .like {
+  font-size: 14px;
+  color: #999999;
+}
+.designer .fullName,.designer .like {
+  padding-left: 16px;
+  width: 168px;
+  float: right;
+}

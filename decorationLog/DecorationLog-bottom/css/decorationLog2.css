@@ -1,0 +1,100 @@
+body {
+  font-family: '微软雅黑';
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix')
+  format('embedded-opentype'),
+  url('iconfont.woff') format('woff'),
+  url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg#iconfont') format('svg');
+}
+
+/*页面部分*/
+.page {
+  width: 1200px;
+  /*margin: 0 auto;*/
+}
+.allDaily {
+  width: 817px;
+  /*height:1062px;*/
+  float: left;
+}
+/*在建工地*/
+.buildingSite {
+  float: left;
+}
+.buildingSite .title {
+  height: 18px;
+}
+.buildingSite .title p {
+  padding-left: 15px;
+  font-size: 24px;
+  height: 24px;
+  color: #333;
+  margin: 0;
+  margin-top: 38px;
+  border-left: 4px solid #fdab23;
+}
+/*在建工地封面图和工地名称*/
+.buildingSite ul {
+  width: 1225px;
+  height: auto;
+}
+.buildingSite ul li {
+  float: left;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+.buildingSite ul li div {
+  cursor: pointer;
+  width: 383px;
+  height: 286px;
+  background: url(../img/siteCover2.png)
+}
+.buildingSite ul li div:hover {
+  background: url(../img/siteCover1.gif)
+}
+.buildingSite ul li:hover div {
+  background: url(../img/siteCover1.gif)
+}
+.buildingSite ul li:hover .buildingSite ul li p {
+  border-bottom-color: #FDAB23;
+  border-left-color: #FDAB23;
+  border-right-color: #FDAB23;
+}
+.buildingSite ul li p {
+  width: 383px;
+  height: 48px;
+  border: 1px solid #e1e1e1;
+  border-top: none;
+  position: relative;
+  top:-2px;
+  line-height: 48px;
+  padding-left: 14px;
+  /*font-size: 16px;*/
+}
+.buildingSite ul li p a {
+  color: #333333;
+  /*font-size: 16px;*/
+}
+.buildingSite ul li p:hover a {
+  color: #FDAB23;
+}
+.buildingSite ul li p a:hover {
+  color: #FDAB23;
+}
+.buildingSite ul li p:hover {
+  border-bottom-color: #FDAB23;
+  border-left-color: #FDAB23;
+  border-right-color: #FDAB23;
+}
+.buildingSite ul li:hover p {
+  border-bottom-color: #FDAB23;
+  border-left-color: #FDAB23;
+  border-right-color: #FDAB23;
+}
